@@ -36,10 +36,11 @@ const Contact = () => {
             <p className="contactDesc">
               To meet <b>Mr. Sharif</b> physically please visit the address as
               mentioned below......
-              <br />
-              <hr />
-              <b>Thanks</b>
             </p>
+            <br />
+            <hr />
+            <b>Thanks</b>
+
             <div className="addressItem">
               <span className="icon">
                 <FaHome />

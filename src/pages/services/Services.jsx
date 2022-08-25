@@ -8,7 +8,14 @@ const Services = () => {
         <h2 className="serviceHeading">My Services</h2>
         <div className="servicesWrapper">
           {data.map((item) => {
-            return <Card img={item.img} title={item.title} desc={item.desc} />;
+            return (
+              <Card
+                img={item.img}
+                title={item.title}
+                desc={item.desc}
+                key={item.id}
+              />
+            );
           })}
         </div>
       </div>
