@@ -1,5 +1,5 @@
-import Card from "../components/card/Card";
-import data from "./../data";
+import Card from "../../components/card/Card";
+import data from "../../data";
 import "./services.css";
 const Services = () => {
   return (
