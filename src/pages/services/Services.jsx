@@ -10,7 +10,7 @@ const Services = () => {
           {data.map((item) => {
             return (
               <Card
-                img={item.img}
+                pic={item.img}
                 title={item.title}
                 desc={item.desc}
                 key={item.id}
