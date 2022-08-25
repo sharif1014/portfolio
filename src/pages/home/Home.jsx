@@ -1,9 +1,9 @@
-import Header from "./../components/Header";
-import About from "./About";
-import Contact from "./Contact";
+import Header from "./../components/header/Header";
+import About from "./about/About";
+import Contact from "./contact/Contact";
 import "./home.css";
-import Services from "./Services";
-import Skills from "./Skills";
+import Services from "./services/Services";
+import Skills from "./skills/Skills";
 
 const Home = () => {
   return (

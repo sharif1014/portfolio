@@ -1,4 +1,4 @@
-import SkillItemGroup from "../components/SkillItemGroup";
+import SkillItemGroup from "../components/skillsItem/SkillItemGroup";
 import "./skills.css";
 
 const Skills = () => {

@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import About from "./pages/About";
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Skills from './pages/Skills';
+import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
+import About from "./pages/about/About";
+import Contact from './pages/contact/Contact';
+import Home from './pages/home/Home';
+import Services from './pages/services/Services';
+import Skills from './pages/skills/Skills';
 
 function App() {
   return (

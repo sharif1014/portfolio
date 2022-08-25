@@ -1,5 +1,4 @@
 import Typed from "react-typed";
-//import Layout from "../components/Layout";
 import "./about.css";
 const About = () => {
   return (
