@@ -1,0 +1,117 @@
+.skills {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  background-color: #befdf5;
+}
+.skillsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f4511e;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.heading::after {
+  content: "what i know";
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  position: absolute;
+  top: 94%;
+  left: 19%;
+  width: 10rem;
+  background-color: #befdf5;
+  color: #0277bd;
+}
+.heading::before {
+  content: "";
+  height: 0.5rem;
+  background-color: #5d4037;
+  position: absolute;
+  top: 110%;
+  left: 8%;
+  width: 16rem;
+}
+.skillsWrapper {
+  width: 100%;
+  max-width: 114rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5rem;
+}
+.skillsDesc {
+  flex: 1;
+}
+.expertList > li {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #e03906;
+  letter-spacing: 0.1rem;
+}
+.skillsGraph {
+  flex: 1;
+}
+.skillTitle {
+  font-size: 3.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff6f00;
+}
+.skillDesc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #130f0f;
+  margin-top: 2rem;
+}
+label {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #f4511e;
+}
+
+/* RESPONSIVE DESIGN START HERE */
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 4rem;
+    position: relative;
+  }
+  .skillTitle {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .skillDesc {
+    font-size: 1.4rem;
+  }
+  label {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .skillsWrapper {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .skillDesc {
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+  .skillTitle {
+    font-size: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+}

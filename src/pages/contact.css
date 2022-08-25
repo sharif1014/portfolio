@@ -1,0 +1,246 @@
+.contact {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  background-color: #c5cae9;
+}
+
+.contactContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.contactHeading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #043552;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.contactHeading::after {
+  content: "get in touch";
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  position: absolute;
+  top: 94%;
+  left: 26%;
+  width: 10rem;
+  background-color: #c5cae9;
+  color: #212121;
+}
+.contactHeading::before {
+  content: "";
+  height: 0.4rem;
+  background-color: #0277bd;
+  position: absolute;
+  top: 110%;
+  left: 11%;
+  width: 20rem;
+}
+.contactWrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 114rem;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contactLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.addressTitle {
+  font-size: 2.4rem;
+  color: #0277bd;
+}
+.address {
+  font-size: 1.2rem;
+  color: #2b2b2c;
+}
+.contactDesc {
+  width: 70%;
+  font-size: 1.4rem;
+  color: #2b2b2c;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+.addressItem {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #cafce0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.addressItem:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ffffff;
+  color: #0277bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.textDesc {
+  display: flex;
+  flex-direction: column;
+}
+.house,
+.phone,
+.email {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #0277bd;
+}
+.contactRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactContainer {
+  width: 100%;
+  background-color: #cafce0;
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.messageTitle {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #250111;
+  text-align: center;
+}
+.messageItem {
+  display: flex;
+  flex-direction: column;
+}
+.messageLabel {
+  font-size: 1.8rem;
+  color: #0277bd;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border: 1px solid #0277bd;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.sendBtn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: #250111;
+  color: #ff8902;
+  margin: 1rem 0;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN START HERE */
+@media only screen and (max-width: 768px) {
+  .contactWrapper {
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .contactHeading {
+    font-size: 3.3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .contactWrapper {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .contactHeading {
+    font-size: 3rem;
+  }
+  .addressTitle {
+    font-size: 2rem;
+  }
+  .address {
+    font-size: 1.3rem;
+    color: #2b2b2c;
+  }
+  .contactDesc {
+    width: 60%;
+    font-size: 1.5rem;
+    color: #2b2b2c;
+    margin-bottom: 3rem;
+    text-align: left;
+  }
+
+  .addressItem:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .house,
+  .phone,
+  .email {
+    font-size: 1.8rem;
+  }
+
+  .messageTitle {
+    font-size: 2rem;
+  }
+
+  .messageLabel {
+    font-size: 1.6rem;
+  }
+
+  .contactDesc {
+    width: 100%;
+  }
+  .addressItem {
+    max-width: 100%;
+  }
+  .contactLeft,
+  .contactRight {
+    flex: 1;
+    width: 100%;
+  }
+  .contactContainer {
+    padding: 1rem;
+  }
+}
