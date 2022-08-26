@@ -34,10 +34,9 @@ const Contact = () => {
           <div className="contactLeft">
             <h3 className="addressTitle">Physical Address</h3>
             <p className="contactDesc">
-              To meet <b>Mr. Sharif</b> physically please visit the address as
-              mentioned below......
+              To meet <strong>Mr. Sharif</strong> physically please visit the
+              address as mentioned below......
             </p>
-            <br />
             <hr />
             <b>Thanks</b>
 

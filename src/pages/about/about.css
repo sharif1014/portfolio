@@ -63,6 +63,7 @@
 .aboutImg img {
   width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .aboutText {
   flex: 2;
@@ -100,6 +101,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .about {
+    height: auto;
+  }
   .aboutWrapper {
     width: 100%;
     padding: 1rem;
@@ -110,7 +114,7 @@
     margin-bottom: 2rem;
   }
   .aboutImg img {
-    width: 60vw;
+    width: 60%;
   }
   .aboutText {
     width: 100%;

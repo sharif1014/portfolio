@@ -101,6 +101,9 @@ label {
 }
 
 @media only screen and (max-width: 400px) {
+  .skills {
+    height: auto;
+  }
   .skillsWrapper {
     flex-direction: column;
     row-gap: 2rem;
