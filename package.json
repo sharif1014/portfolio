@@ -1,6 +1,6 @@
 {
-  "name": "materialui",
   "homepage": "https://sharif1014.github.io/portfolio",
+  "name": "materialui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
