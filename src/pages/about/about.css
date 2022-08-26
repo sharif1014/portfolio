@@ -104,29 +104,34 @@
   .about {
     height: auto;
   }
-  .aboutWrapper {
+  .aboutContent {
     width: 100%;
     padding: 1rem;
+  }
+  .aboutWrapper {
     flex-direction: column;
+    margin: 0 auto;
   }
   .aboutImg {
-    width: 60%;
+    flex: 1;
+    max-width: 50%;
     margin-bottom: 2rem;
   }
   .aboutImg img {
-    width: 60%;
+    width: 100%;
   }
   .aboutText {
-    width: 100%;
-    text-align: center;
+    flex: 1;
+    margin-left: 0;
   }
   .aboutHeading {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
   .aboutSubheading {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .aboutDesc {
     font-size: 1.2rem;
+    text-align: left;
   }
 }

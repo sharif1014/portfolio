@@ -52,11 +52,14 @@
 .skillsDesc {
   flex: 1;
 }
+.expertList {
+  padding: 0 1rem;
+}
 .expertList > li {
-  list-style: none;
+  list-style: disc;
   font-size: 1.8rem;
-  font-weight: 400;
-  color: #e03906;
+  font-weight: 500;
+  color: #424141;
   letter-spacing: 0.1rem;
 }
 .skillsGraph {

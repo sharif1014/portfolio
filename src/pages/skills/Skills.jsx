@@ -22,6 +22,7 @@ const Skills = () => (
             <li> Node JS</li>
             <li> MongoDB</li>
           </ul>
+          <hr />
         </div>
         <div className="skillsGraph">
           <SkillItemGroup
